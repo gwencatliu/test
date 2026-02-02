@@ -8,8 +8,8 @@ used to generate figures for the manuscript:
 Gwen Liu, Jacob Graham, Sinan Keten  
 Nano Letters, 2026
 
-**Dataset DOI:** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)  
-*(DOI will be assigned upon Zenodo publication)*
+**Dataset DOI:** [![DOI](10.5281/zenodo.18461972)] 
+
 
 **Version:** 1.0  
 **Release Date:** February 2026
@@ -184,4 +184,5 @@ df_mechanical = pd.read_pickle('data/simulations_large_diff_pull_force/stress_st
 - Data files use relative paths (`data/...`) so notebooks should be run from the repository root
 - Some notebooks may take several minutes to run due to large data files
 - Color schemes use `TwoSlopeNorm` for diverging colormaps centered on specific α values
+
 
