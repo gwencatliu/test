@@ -1,5 +1,4 @@
-# Data and Code for:
-Nanoconfinement of Hydrophobic Domains Facilitates Strong Mesoscale Networks in Silk-Inspired Materials
+# Data and Code for: Nanoconfinement of Hydrophobic Domains Facilitates Strong Mesoscale Networks in Silk-Inspired Materials
 
 This repository contains processed data and plotting notebooks
 used to generate figures for the manuscript:
@@ -185,3 +184,4 @@ df_mechanical = pd.read_pickle('data/simulations_large_diff_pull_force/stress_st
 - Data files use relative paths (`data/...`) so notebooks should be run from the repository root
 - Some notebooks may take several minutes to run due to large data files
 - Color schemes use `TwoSlopeNorm` for diverging colormaps centered on specific α values
+
